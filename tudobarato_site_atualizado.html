@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TudoBarato — Produtos Digitais</title>
+<meta name="description" content="Conheça nossos materiais digitais.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:#08060d;color:#fff;line-height:1.5}
+.container{width:min(1100px,92%);margin:auto}
+header{padding:22px 0;border-bottom:1px solid #241b31;background:#0b0811;position:sticky;top:0;z-index:10}
+.nav{display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:22px;font-weight:900;letter-spacing:.5px}
+.logo span{color:#a855f7}
+.nav a{color:#bbb1c8;text-decoration:none;font-size:14px}
+.hero{text-align:center;padding:90px 0 70px;background:radial-gradient(circle at 50% 10%,#6d28d933,transparent 38%)}
+.hero .tag{display:inline-block;border:1px solid #7c3aed;border-radius:50px;padding:7px 14px;color:#d8b4fe;font-size:13px;margin-bottom:20px}
+h1{font-size:clamp(40px,7vw,70px);line-height:1.05;max-width:850px;margin:auto}
+.hero p{max-width:650px;margin:22px auto 0;color:#b8afc2;font-size:18px}
+.products{padding:65px 0 90px}
+.section-title{text-align:center;font-size:36px;margin-bottom:10px}
+.section-sub{text-align:center;color:#968ca1;margin-bottom:42px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+.card{background:#120e19;border:1px solid #2a2035;border-radius:22px;overflow:hidden;box-shadow:0 15px 45px #0006}
+.card-top{padding:32px;min-height:190px}
+.finance{background:linear-gradient(135deg,#291044,#120e19)}
+.wellness{background:linear-gradient(135deg,#12351f,#120e19)}
+.icon{font-size:42px;margin-bottom:14px}
+.card h3{font-size:28px;line-height:1.15;margin-bottom:10px}
+.card p{color:#b7adbf}
+.card-body{padding:28px 32px}
+.features{list-style:none;color:#c8c0ce;margin-bottom:25px}
+.features li{margin:9px 0}
+.price{font-size:36px;font-weight:900;margin:10px 0 22px}
+.btn{display:block;text-align:center;text-decoration:none;color:#fff;font-weight:800;background:linear-gradient(90deg,#7c3aed,#a855f7);padding:15px;border-radius:12px;transition:.2s}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.1)}
+.green-btn{background:linear-gradient(90deg,#15803d,#22c55e)}
+.notice{margin-top:30px;padding:18px;border:1px solid #2b2433;border-radius:14px;color:#9990a3;font-size:13px}
+.about{padding:70px 0;background:#0d0912;border-top:1px solid #21192b;border-bottom:1px solid #21192b;text-align:center}
+.about p{max-width:700px;margin:15px auto;color:#aaa1b2}
+footer{text-align:center;padding:28px;color:#706878;font-size:13px}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.hero{padding:65px 0 50px}.card-top{min-height:auto}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <div class="logo">TUDO<span>BARATO</span></div>
+    <a href="#produtos">Produtos</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <span class="tag">📚 MATERIAIS DIGITAIS</span>
+    <h1>Conteúdos simples para colocar novas ideias em prática.</h1>
+    <p>Conheça nossos materiais digitais e escolha o conteúdo que mais combina com seus objetivos.</p>
+  </div>
+</section>
+
+<section class="products" id="produtos">
+  <div class="container">
+    <h2 class="section-title">Nossos produtos</h2>
+    <p class="section-sub">Escolha um material para conhecer mais.</p>
+
+    <div class="grid">
+
+      <article class="card">
+        <div class="card-top finance">
+          <div class="icon">💰</div>
+          <h3>Renda Extra em Menos de 30 Dias</h3>
+          <p>Ideias, estratégias e passos para começar a buscar oportunidades de renda extra.</p>
+        </div>
+        <div class="card-body">
+          <ul class="features">
+            <li>✓ Ideias de renda extra</li>
+            <li>✓ Estratégias práticas</li>
+            <li>✓ Conteúdo direto e fácil</li>
+            <li>✓ Acesso pelo celular</li>
+          </ul>
+          <div class="price">R$ 19,90</div>
+          <a class="btn" href="https://pay.kiwify.com.br/XFxMz6Y" target="_blank" rel="noopener">QUERO ACESSAR 🚀</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top wellness">
+          <div class="icon">🌱</div>
+          <h3>Como Emagrecer em Menos de 30 Dias</h3>
+          <p>Material voltado a hábitos saudáveis, bem-estar e uma rotina mais equilibrada.</p>
+        </div>
+        <div class="card-body">
+          <ul class="features">
+            <li>✓ Hábitos saudáveis</li>
+            <li>✓ Rotina equilibrada</li>
+            <li>✓ Dicas de bem-estar</li>
+            <li>✓ Conteúdo simples</li>
+          </ul>
+          <div class="price">R$ 14,99</div>
+          <a class="btn green-btn" href="https://pay.kiwify.com.br/2QnIgCH" target="_blank" rel="noopener">CONHECER PRODUTO 🌱</a>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="notice">
+      <strong>Importante:</strong> os materiais são informativos e não garantem resultados específicos.
+      Resultados podem variar conforme diferentes circunstâncias.
+    </div>
+  </div>
+</section>
+
+<section class="about">
+  <div class="container">
+    <h2 class="section-title">Tudo em um só lugar</h2>
+    <p>Uma página simples para apresentar seus produtos digitais e levar cada visitante diretamente ao link correspondente.</p>
+  </div>
+</section>
+
+<footer>© 2026 TudoBarato — Todos os direitos reservados.</footer>
+
+</body>
+</html>
